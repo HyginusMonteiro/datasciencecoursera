@@ -20,46 +20,46 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 # Program Details
 ## Following is the highlevel logic of the program
-1.Merges the training and the test sets to create one data set.
-2.Extracts only the measurements on the mean and standard deviation for each measurement. 
-3.Uses descriptive activity names to name the activities in the data set
-4.Appropriately labels the data set with descriptive variable names. 
-5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+*1.Merges the training and the test sets to create one data set.
+*2.Extracts only the measurements on the mean and standard deviation for each measurement. 
+*3.Uses descriptive activity names to name the activities in the data set
+*4.Appropriately labels the data set with descriptive variable names. 
+*5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Variables created in the Program
-file_features --> features data 
-file_activity_labels --> activity data
-file_subject_train --> sub train data
-file_x_train --> x_train data
-file_y_train --> y_train data
-file_subject_test --> sub test data 
-file_x_test --> x_test data
-file_y_test --> y_test data
-mergTestTrainingData --> merged test and training data with descriptive activity names. Also names have been cleansed.
-file_col_names --> col names of mergTestTrainingData
-mergTestTrainingData_2 --> merged data without activity type
-tidyData --> Output data
+*file_features --> features data 
+*file_activity_labels --> activity data
+*file_subject_train --> sub train data
+*file_x_train --> x_train data
+*file_y_train --> y_train data
+*file_subject_test --> sub test data 
+*file_x_test --> x_test data
+*file_y_test --> y_test data
+*mergTestTrainingData --> merged test and training data with descriptive activity names. Also names have been cleansed.
+*file_col_names --> col names of mergTestTrainingData
+*mergTestTrainingData_2 --> merged data without activity type
+*tidyData --> Output data
 
 #OutPut Data
 ## Output data contains the following elements
-activityId
-subjectId
-timeBodyAccMagnitudeMean
-timeBodyAccMagnitudeStdDev
-timeGravityAccMagnitudeMean
-timeGravityAccMagnitudeStdDev
-timeBodyAccJerkMagnitudeMean
-timeBodyAccJerkMagnitudeStdDev
-timeBodyGyroMagnitudeMean
-timeBodyGyroMagnitudeStdDev
-timeBodyGyroJerkMagnitudeMean
-timeBodyGyroJerkMagnitudeStdDev
-freqBodyAccMagnitudeMean
-freqBodyAccMagnitudeStdDev
-freqBodyAccJerkMagnitudeMean
-freqBodyAccJerkMagnitudeStdDev
-freqBodyGyroMagnitudeMean
-freqBodyGyroMagnitudeStdDev
-freqBodyGyroJerkMagnitudeMean
-freqBodyGyroJerkMagnitudeStdDev
-activityType
+*activityId
+*subjectId
+*timeBodyAccMagnitudeMean
+*timeBodyAccMagnitudeStdDev
+*timeGravityAccMagnitudeMean
+*timeGravityAccMagnitudeStdDev
+*timeBodyAccJerkMagnitudeMean
+*timeBodyAccJerkMagnitudeStdDev
+*timeBodyGyroMagnitudeMean
+*timeBodyGyroMagnitudeStdDev
+*timeBodyGyroJerkMagnitudeMean
+*timeBodyGyroJerkMagnitudeStdDev
+*freqBodyAccMagnitudeMean
+*freqBodyAccMagnitudeStdDev
+*freqBodyAccJerkMagnitudeMean
+*freqBodyAccJerkMagnitudeStdDev
+*freqBodyGyroMagnitudeMean
+*freqBodyGyroMagnitudeStdDev
+*freqBodyGyroJerkMagnitudeMean
+*freqBodyGyroJerkMagnitudeStdDev
+*activityType
