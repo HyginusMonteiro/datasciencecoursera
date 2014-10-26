@@ -1,6 +1,6 @@
 # Overview
 Course Project for Getting and Cleaning Data.
-This read my file explains the logic used to create run_analysis.R program.
+This read me file explains the logic used to create run_analysis.R program.
 Author: Hyginus Monteiro
 Date: 26-Oct-2014
 

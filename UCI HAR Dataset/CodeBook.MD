@@ -1,6 +1,6 @@
 # Overview
 Course Project for Getting and Cleaning Data.
-This is Code Book for run_analysis.R Program
+This is Code Book for run_analysis.R Program.
 Author: Hyginus Monteiro
 Date: 26-Oct-2014
 
